@@ -145,6 +145,10 @@
     <Compile Include="Migrations\201911210929094_InitialCreate.Designer.cs">
       <DependentUpon>201911210929094_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911240615319_FormDataAnnotation.cs" />
+    <Compile Include="Migrations\201911240615319_FormDataAnnotation.Designer.cs">
+      <DependentUpon>201911240615319_FormDataAnnotation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Form.cs" />
@@ -210,6 +214,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911210929094_InitialCreate.resx">
       <DependentUpon>201911210929094_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911240615319_FormDataAnnotation.resx">
+      <DependentUpon>201911240615319_FormDataAnnotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
